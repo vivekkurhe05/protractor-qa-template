@@ -1,0 +1,40 @@
+{
+  "name": "protractor_qa_template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "test:local:chrome": "protractor src/conf/conf.js",
+    "test:local:chrome-headless": "protractor src/conf/conf.js --params.env='local' --params.cap='chrome-headless'",
+    "test:local:chrome-suite": "protractor src/conf/conf.js --suite",
+    "test:local:cross-browser": "protractor src/conf/conf.js --params.env='local' --params.cap='cross-browser'",
+    "test:local:chrome-parallel-exec": "protractor src/conf/conf.js --params.env='local' --params.cap='chrome-parallel-exec'",
+    "lint": "./node_modules/.bin/eslint --init"
+  },
+  "keywords": [],
+  "author": "Vivek Kurhe",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "jasmine": "^3.3.1",
+    "jasmine-data-provider": "^2.2.0",
+    "protractor": "^5.4.2",
+    "protractor-retry": "^1.2.6",
+    "select-wrapper": "0.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^5.15.3",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-plugin-import": "^2.16.0",
+    "eslint-plugin-jasmine": "^2.10.1",
+    "eslint-plugin-node": "^8.0.1",
+    "eslint-plugin-promise": "^4.0.1",
+    "eslint-plugin-protractor": "^1.41.1",
+    "eslint-plugin-standard": "^4.0.0",
+    "faker": "^4.1.0",
+    "jasmine-spec-reporter": "^4.2.1",
+    "protractor-beautiful-reporter": "^1.2.7",
+    "protractor-element-extend": "^2.1.0"
+  }
+}

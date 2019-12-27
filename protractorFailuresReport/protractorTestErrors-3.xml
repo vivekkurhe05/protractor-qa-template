@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+<failedTest>
+<spec>/home/vivek/protractor-qa-template/src/specs/login.spec.js,/usr/local/lib/node_modules/protractor/built/frameworks/__protractor_internal_afterEach_setup_spec.js</spec>
+</failedTest>
+</list>

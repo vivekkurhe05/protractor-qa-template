@@ -1,0 +1,16 @@
+---
+author: Red Panda Pvt. Ltd.
+company: Red Panda Pvt. Ltd.
+title: Protractor QA Template
+subtitle: Guidlines and quality metrics
+version: version 0.2
+listcontributors: false
+documentclass: report
+fontsize: 11pt
+geometry:
+- top=3mm
+- bottom=15mm
+- right=15mm
+- left=15mm
+
+...
